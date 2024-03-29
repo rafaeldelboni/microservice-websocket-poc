@@ -24,6 +24,8 @@ You'll notice the log message in Clojure REPL
 
 4. Send a message to the client and close in `src/microservice_boilerplate/components/websocket.clj` with `(send-and-close!)`
 
+Based on [this](https://github.com/pedestal/pedestal/tree/master/samples/jetty-web-sockets)
+
 ## About this example
  - **microservice-boilerplate**: An example of how use the boilerplate, it's a simple btc wallet
 that fetch the current btc price in USD and you can check your transaction history, do deposits and withdrawals.

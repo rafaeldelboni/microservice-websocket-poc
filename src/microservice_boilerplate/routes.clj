@@ -15,8 +15,7 @@
 
     ["/:client-id"
      ["/{*mock-path}"
-      {:coercion nil
-       :summary "get mocked api"
+      {:summary "get mocked api"
        :parameters {:path {:client-id :string
                            :mock-path :string}}
        :handler ports.http-in/mock-api}]]]
